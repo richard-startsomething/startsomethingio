@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
  
 
+  resources :signups
   get 'welcome/index'
 
   get 'pages/about'
